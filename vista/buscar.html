@@ -1,0 +1,21 @@
+<h3>Bucar</h3>
+<table>
+	<tr>
+		<td><label>Buscar por:</label></td>
+		<td><select id="filtro">
+			<option value="nombre">Nombre</option>
+			<option value="apellidos">Apellidos</option>
+			<option value="telefono">Telefono</option>
+			<option value="email">Email</option>
+			<option value="direccion">Dirección</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td><label>datos</label></td>
+		<td><input list="dato" type="text" id="texto" onkeypress="onchange_buscar2()">
+		<datalist id="dato" >
+			
+		</datalist></td>
+	</tr>	
+</table>
+<button id="buscar" onclick="onclick_buscar2()">Buscar</button>	
